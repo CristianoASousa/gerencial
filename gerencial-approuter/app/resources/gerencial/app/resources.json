@@ -1,0 +1,48 @@
+{
+    "resources": [
+        {
+            "name": "../../sap-ui-version.json"
+        },
+        {
+            "name": "../../app/app/controller/App.controller.js"
+        },
+        {
+            "name": "../../app/app/model/models.js"
+        },
+        {
+            "name": "../../app/app/manifest.json"
+        },
+        {
+            "name": "../../app/app/Component.js"
+        },
+        {
+            "name": "../../app/app/Component-preload.js",
+            "merged": true
+        },
+        {
+            "name": "../../app/app/controller/App-dbg.controller.js",
+            "isDebug": true
+        },
+        {
+            "name": "../../app/app/model/models-dbg.js",
+            "isDebug": true
+        },
+        {
+            "name": "../../app/app/Component-dbg.js",
+            "isDebug": true
+        },
+        {
+            "name": "../../app/app/i18n/i18n.properties",
+            "raw": "i18n/i18n.properties"
+        },
+        {
+            "name": "../../app/app/view/App.view.xml"
+        },
+        {
+            "name": "../../app/app/css/style.css"
+        },
+        {
+            "name": "../../app/app/index.html"
+        }
+    ]
+}
