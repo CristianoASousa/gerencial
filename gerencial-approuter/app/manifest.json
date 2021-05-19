@@ -80,15 +80,95 @@
                     "target": [
                         "TargetApp"
                     ]
+                },
+                {
+                    "name": "Menu",
+                    "pattern": "",
+                    "target": [
+                        "Menu",
+                        "Relatorio"
+                    ]
+                },
+                {
+                    "name": "Relatorio",
+                    "pattern": "Relatorio",
+                    "target": [
+                        "Menu",
+                        "Relatorio"
+                    ]
+                },
+                {
+                    "name": "Gerenciar",
+                    "pattern": "Gerenciar",
+                    "target": [
+                        "Menu",
+                        "Gerenciar"
+                    ]
+                },
+                {
+                    "name": "Listar",
+                    "pattern": "Listar",
+                    "target": [
+                        "Menu",
+                        "Listar"
+                    ]
+                },
+                {
+                    "name": "Teste",
+                    "pattern": "Teste",
+                    "target": [
+                        "Menu",
+                        "Teste"
+                    ]
                 }
             ],
             "targets": {
+                "Menu": {
+                    "viewType": "XML",
+                    "transition": "slide",
+                    "clearControlAggregation": false,
+                    "viewId": "menu",
+                    "viewName": "Menu",
+                    "controlAggregation": "masterPages"
+                },
                 "TargetApp": {
                     "viewType": "XML",
                     "transition": "slide",
                     "clearControlAggregation": false,
                     "viewId": "App",
                     "viewName": "App"
+                },
+                "Relatorio": {
+                    "viewType": "XML",
+                    "transition": "slide",
+                    "clearControlAggregation": false,
+                    "viewId": "relatorio",
+                    "viewName": "Relatorio",
+                    "controlAggregation": "detailPages"
+                },
+                "Gerenciar": {
+                    "viewType": "XML",
+                    "transition": "slide",
+                    "clearControlAggregation": false,
+                    "viewId": "gerenciar",
+                    "viewName": "Gerenciar",
+                    "controlAggregation": "detailPages"
+                },
+                "Listar": {
+                    "viewType": "XML",
+                    "transition": "slide",
+                    "clearControlAggregation": false,
+                    "viewId": "listar",
+                    "viewName": "Listar",
+                    "controlAggregation": "detailPages"
+                },
+                "Teste": {
+                    "viewType": "XML",
+                    "transition": "slide",
+                    "clearControlAggregation": false,
+                    "viewId": "teste",
+                    "viewName": "Teste",
+                    "controlAggregation": "detailPages"
                 }
             }
         }

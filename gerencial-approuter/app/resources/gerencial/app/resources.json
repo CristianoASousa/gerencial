@@ -1,16 +1,32 @@
 {
     "resources": [
         {
-            "name": "../../sap-ui-version.json"
+            "name": "../../app/app/Component-dbg.js",
+            "isDebug": true
         },
         {
-            "name": "../../app/app/controller/App.controller.js"
+            "name": "../../app/app/controller/Relatorio.controller.js"
         },
         {
             "name": "../../app/app/model/models.js"
         },
         {
             "name": "../../app/app/manifest.json"
+        },
+        {
+            "name": "../../app/app/controller/Menu.controller.js"
+        },
+        {
+            "name": "../../app/app/controller/Listar.controller.js"
+        },
+        {
+            "name": "../../app/app/controller/Gerenciar.controller.js"
+        },
+        {
+            "name": "../../app/app/controller/BaseController.js"
+        },
+        {
+            "name": "../../app/app/controller/App.controller.js"
         },
         {
             "name": "../../app/app/Component.js"
@@ -20,7 +36,15 @@
             "merged": true
         },
         {
-            "name": "../../app/app/controller/App-dbg.controller.js",
+            "name": "../../app/app/controller/Listar-dbg.controller.js",
+            "isDebug": true
+        },
+        {
+            "name": "../../app/app/controller/Relatorio-dbg.controller.js",
+            "isDebug": true
+        },
+        {
+            "name": "../../app/app/controller/Menu-dbg.controller.js",
             "isDebug": true
         },
         {
@@ -28,7 +52,15 @@
             "isDebug": true
         },
         {
-            "name": "../../app/app/Component-dbg.js",
+            "name": "../../app/app/controller/Gerenciar-dbg.controller.js",
+            "isDebug": true
+        },
+        {
+            "name": "../../app/app/controller/BaseController-dbg.js",
+            "isDebug": true
+        },
+        {
+            "name": "../../app/app/controller/App-dbg.controller.js",
             "isDebug": true
         },
         {
@@ -36,7 +68,25 @@
             "raw": "i18n/i18n.properties"
         },
         {
+            "name": "../../sap-ui-version.json"
+        },
+        {
+            "name": "../../app/app/view/Relatorio.view.xml"
+        },
+        {
+            "name": "../../app/app/view/Menu.view.xml"
+        },
+        {
+            "name": "../../app/app/view/Listar.view.xml"
+        },
+        {
+            "name": "../../app/app/view/Gerenciar.view.xml"
+        },
+        {
             "name": "../../app/app/view/App.view.xml"
+        },
+        {
+            "name": "../../app/app/images/logo_tr.png"
         },
         {
             "name": "../../app/app/css/style.css"

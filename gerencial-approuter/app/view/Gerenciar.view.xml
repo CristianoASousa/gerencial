@@ -1,0 +1,56 @@
+<mvc:View
+    controllerName="app.app.controller.Gerenciar"
+    xmlns:mvc="sap.ui.core.mvc"
+    displayBlock="true"
+    xmlns="sap.m"
+>
+	<Page showHeader="true" title="Gerenciar Equipes" titleAlignment="Center">
+        <content>
+            <Title text="Totais:" level="H3" class="sapUiTinyMarginBegin sapUiTinyMarginTop " />
+                <ToolbarSpacer ></ToolbarSpacer>
+                <!--Card de quantidades de funcionários-->
+                 	<GenericTag text="Funcionários"  design="StatusIconHidden" status="Warning"  class=" sapUiTinyMarginBegin sapUiSmallMarginBottom">
+					    <ObjectNumber state="None" emphasized="true" number="200"  />
+				    </GenericTag>
+                    <GenericTag text="Recursos Humanos"  design="StatusIconHidden" status="Warning"  class=" sapUiTinyMarginBegin sapUiSmallMarginBottom">
+					    <ObjectNumber state="None" emphasized="true" number="30"  />
+				    </GenericTag>
+                    <GenericTag text="Financeiro"  design="StatusIconHidden" status="Warning"  class=" sapUiTinyMarginBegin sapUiSmallMarginBottom">
+					    <ObjectNumber state="None" emphasized="true" number="28"  />
+				    </GenericTag>
+                    <GenericTag text="Projetos"  design="StatusIconHidden" status="Warning"  class=" sapUiTinyMarginBegin sapUiSmallMarginBottom">
+					    <ObjectNumber state="None" emphasized="true" number="142"  />
+				    </GenericTag>
+                    <ToolbarSpacer ></ToolbarSpacer>
+                    <Title text="Escolha a porcentagem:" level="H3" class="sapUiTinyMarginBegin sapUiTinyMarginTop " />
+                    <ToolbarSpacer ></ToolbarSpacer>
+                    <!--Slide de escolha de porcentagem -->
+            	    <Slider value="50" width="90%" min="0" max="100" showAdvancedTooltip="true" showHandleTooltip="false" class="sapUiMediumMarginBottom" />
+                    <ToolbarSpacer ></ToolbarSpacer> 
+                    <!--Cards de quantidade de funcionarios depois de alterados--> 
+                        <GenericTile class="sapUiTinyMarginBegin sapUiTinyMarginTop tileLayout" header="Funcionarios" subheader="Recursos Humanos" press="press">
+		                    <TileContent unit="Unit" footer="Footer Text">
+			                    <NumericContent value="10"  withMargin="false" />
+		                    </TileContent>
+	                    </GenericTile>
+	                    <GenericTile class="sapUiTinyMarginBegin sapUiTinyMarginTop tileLayout" header="Funcionarios" subheader="Administração" press="press">
+		                    <TileContent unit="Unit" footer="Footer Text">
+			                    <NumericContent value="12" withMargin="false" />
+		                    </TileContent>
+	                    </GenericTile>
+                        <GenericTile class="sapUiTinyMarginBegin sapUiTinyMarginTop tileLayout" header="Funcionarios" subheader="Desenvolvimento" press="press">
+		                    <TileContent unit="Unit" footer="Footer Text">
+			                    <NumericContent value="25" withMargin="false" />
+		                    </TileContent>
+	                    </GenericTile>
+                    <ToolbarSpacer ></ToolbarSpacer>
+                    <VBox>
+                    
+                        <items>
+                            <StandardListItem  title = "Listar" press="onNavRelatorio" type = "Navigation" icon = "sap-icon://activity-individual"/>
+                        </items>
+                     </VBox>
+                        
+        </content>
+    </Page>		
+</mvc:View>
